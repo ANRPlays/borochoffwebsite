@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borochoff Systems</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+        nav {
+            height: 50px
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            position: relative;
+            text-decoration: underline;
+            font-size: 1.2rem;
+            top:15px
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .sidebar {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+        }
+        .sidebar a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 18px;
+            text-decoration: underline;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .product-images img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px 0;
+        }
+        .add-to-cart {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .add-to-cart:hover {
+            background-color: #555;
+        }
+        .product-description {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Borochoff Systems</h1>
+        <nav>
+
+            <a href="#"><strong>Systems</strong></a>
+            <a href="#"><strong>Tactical</strong></a>
+            <a href="#"><strong>Government</strong></a>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <img src="logo.png" width="400px">
+    </div>
+    <footer>
+        &copy; 2024 Borochoff Systems. All Rights Reserved.
+    </footer>
+</body>
+</html>
